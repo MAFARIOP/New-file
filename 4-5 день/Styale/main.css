@@ -1,0 +1,54 @@
+* {box-sizing: border-box;}
+body, head{
+  margin: 0;
+  font-family: Silkscreen-Bold;
+}
+div {padding: 30px 0}
+form {
+  position: relative;
+  width: 300px;
+  right: 180px;
+  margin: 30px auto;
+}
+.d1 input {
+  width: 200%;
+  height: 52px;
+  padding-left: 10px;
+  border: 2px solid #7BA7AB;
+  border-radius: 50px;
+  outline: none;
+  font-size: 25px;
+}
+.d1 button {
+  position: absolute; 
+  top: 0;
+  right: -300px;
+  width: 52px;
+  height: 52px;
+  border: none;
+  background: #7BA7AB;
+  border-radius: 0 5px 5px 5px;
+  cursor: pointer;
+}
+.d1{
+    height: 100px;
+}
+#img1{
+    margin-top: -100px;
+    margin-left: 30px;
+    color: red;
+}
+.p{
+  margin-right: 100px;
+}
+@font-face{
+  font-family: "Silkscreen-Bold";
+  src: url("Fonts/Silkscreen-Bold.ttf");
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+#table{
+  margin-left: 130px;
+}
